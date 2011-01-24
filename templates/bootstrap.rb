@@ -25,6 +25,7 @@ create_file '.gitignore' do
 .DS_Store
 log/*.log
 tmp/**/*
+tmp/*
 config/database.yml
 db/*.sqlite3
 public/system/**/**/**/*

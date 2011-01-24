@@ -1,7 +1,8 @@
 run 'rm Gemfile'
 create_file 'Gemfile', "source 'http://rubygems.org'\n"
 gem "rails", "~> 3.0.0"
-gem "sqlite3-ruby", :require => "sqlite3"
+#gem "sqlite3-ruby", :require => "sqlite3"
+gem "mysql", :require => 'mysql'
 if ENV['PROLOGUE_AUTH']
   gem 'devise', "~> 1.1.3"
 end
@@ -20,6 +21,7 @@ gem "rails3-generators", :group => :development
 gem "hpricot", :group => :development
 gem "ruby_parser", :group => :development
 gem "rspec-rails", "~> 2.0.0", :group => [:test, :development]
+gem "metric_fu", :group => [:test, :development]
 gem "mocha", :group => [:test]
 gem "factory_girl_rails", :group => [:test, :cucumber]
 gem "faker", :group => [:test]
