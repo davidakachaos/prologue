@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    prologue (0.5.0)
+    prologue (0.5.0.davidakachaos)
       rails (~> 3.0.0)
       thor
 
