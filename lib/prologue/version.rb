@@ -1,3 +1,3 @@
 module Prologue
-  VERSION = "0.5.0.davidakachaos"
+  VERSION = "0.5.1.davidakachaos"
 end
